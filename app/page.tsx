@@ -77,7 +77,7 @@ export default function QuinceaneraInvitation() {
     }
   }
 
-  return <div>Building...</div>
+  
 
   if (!hasStarted) {
     return <SplashScene onStart={handleStart} />
