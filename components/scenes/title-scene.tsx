@@ -73,7 +73,7 @@ export function TitleScene({ onComplete, isActive }: TitleSceneProps) {
           transition: 'opacity 0.5s ease-in-out'
         }}
       >
-        <source src="/video/na4.mp4" type="video/mp4" />
+        <source src="/video/na5.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <div 
           className="absolute inset-0 w-full h-full"
@@ -111,9 +111,9 @@ export function TitleScene({ onComplete, isActive }: TitleSceneProps) {
           {/* Subtitle - Mis XV años (appears first) */}
           <div className="mb-4">
             <TypewriterText
-              text="Mis XV años"
+              text="¡Mis XV años!"
               delay={100}
-              className="font-script text-3xl md:text-4xl lg:text-5xl text-pink-600 font-light tracking-wider drop-shadow-lg"
+              className="font-script text-4xl md:text-5xl lg:text-6xl text-pink-700 font-light tracking-wider drop-shadow-lg"
               onComplete={() => setShowTitle(true)}
               isActive={isActive}
             />
