@@ -100,7 +100,7 @@ export function MessageScene1({ onComplete, isActive }: MessageScene1Props) {
           transition: 'opacity 0.5s ease-in-out'
         }}
       >
-        <source src="/video/na1.mp4" type="video/mp4" />
+        <source src="/video/na6.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo2-Wm2VQWrwt1WtwvZvtaWlAId6zCG8iW.png"
@@ -133,7 +133,7 @@ export function MessageScene1({ onComplete, isActive }: MessageScene1Props) {
             <TypewriterText
               text={message}
               delay={80}
-              className="font-main-text text-xl md:text-2xl lg:text-3xl text-rose-400 text-center leading-relaxed drop-shadow-lg"
+              className="font-main-text text-4xl md:text-5xl lg:text-6xl text-amber-500 text-center leading-relaxed drop-shadow-lg"
               onComplete={handleTextComplete}
               isActive={true}
             />
