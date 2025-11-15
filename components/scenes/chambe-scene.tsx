@@ -86,7 +86,7 @@ export function ChambeScene({ onComplete, isActive }: ChambeSceneProps) {
           transition: 'opacity 0.5s ease-in-out'
         }}
       >
-        <source src="/video/na2.mp4" type="video/mp4" />
+        <source src="/video/na6.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo3-fU4fQLXpKVDGkvxylef7pszW6qJCT8.png"
