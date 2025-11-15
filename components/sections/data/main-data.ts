@@ -37,7 +37,7 @@ export const quinceMainData = {
     },
     abuelos:{
       maternos: {
-        abuelo: "Fermín Angel Gomez Ibarra",
+        abuelo: "Fermín Gomez Ibarra",
         abuela: "Ricarda Trasviña Castro",
       },
       paternos: {
