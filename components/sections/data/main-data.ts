@@ -32,7 +32,7 @@ export const quinceMainData = {
     },
     //Padrino Ma. Asunción Ramirez y Juan Gutiérrez
     godparents: {
-      godfather: "Yuridia Rilen Gaxiola Trasviña",
+      godfather: "Yuridia Gaxiola Trasviña",
       godmother: "Martina Chinchillas Beltrán",
     },
     abuelos:{
