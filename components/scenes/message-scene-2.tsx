@@ -134,7 +134,7 @@ export function MessageScene2({ onComplete, isActive }: MessageScene2Props) {
 
       {/* Text Container - Organized vertically */}
       {videoLoaded && (
-        <div className="relative z-20 text-center px-6 md:px-8 lg:px-12 space-y-8">
+        <div className="relative z-20 text-center px-6 md:px-8 lg:px-12">
           {/* First Text */}
           <div className="rounded-2xl p-4 md:p-6 lg:p-8">
             <TypewriterText
