@@ -139,7 +139,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
             <TypewriterText
               text={firstMessage}
               delay={150}
-              className="font-main-text text-5xl md:text-7xl lg:text-8xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
+              className="font-main-text text-4xl md:text-7xl lg:text-8xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
               onComplete={handleFirstTextComplete}
               isActive={isActive}
             />
@@ -177,7 +177,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
               <TypewriterText
                 text={fourthMessage}
                 delay={120}
-                className="font-main-text text-5xl md:text-7xl lg:text-8xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
+                className="font-main-text text-4xl md:text-7xl lg:text-8xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
                 onComplete={handleFourthTextComplete}
                 isActive={isActive}
               />
