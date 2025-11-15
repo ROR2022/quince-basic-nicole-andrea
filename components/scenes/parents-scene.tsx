@@ -64,14 +64,14 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
 
   // Handle completion flow
   useEffect(() => {
-    if (showButton && isActive) {
+    if (fifthTextComplete && isActive) {
       const timer = setTimeout(() => {
         onComplete?.()
       }, 3000) // 3 seconds after button appears
 
       return () => clearTimeout(timer)
     }
-  }, [showButton, isActive, onComplete])
+  }, [fifthTextComplete, isActive, onComplete])
 
   const handleFirstTextComplete = () => {
     setFirstTextComplete(true)

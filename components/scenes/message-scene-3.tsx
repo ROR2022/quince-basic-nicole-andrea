@@ -62,14 +62,14 @@ export function MessageScene3({ onComplete, isActive = true }: MessageScene3Prop
 
   // Handle completion flow
   useEffect(() => {
-    if (showButton && isActive) {
+    if (fifthTextComplete && isActive) {
       const timer = setTimeout(() => {
         onComplete?.()
       }, 3000) // 3 seconds after button appears
 
       return () => clearTimeout(timer)
     }
-  }, [showButton, isActive, onComplete])
+  }, [fifthTextComplete, isActive, onComplete])
 
   const handleFirstTextComplete = () => {
     setFirstTextComplete(true)
