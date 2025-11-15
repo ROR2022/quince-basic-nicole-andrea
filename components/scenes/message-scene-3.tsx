@@ -168,7 +168,7 @@ export function MessageScene3({ onComplete, isActive = true }: MessageScene3Prop
                 <TypewriterText 
                   text={secondMessage}
                   delay={80}
-                  className="text-2xl md:text-3xl text-pink-600 font-main-text"
+                  className="text-4xl md:text-3xl text-pink-600 font-main-text"
                   onComplete={handleSecondTextComplete}
                 />
               </div>
@@ -180,7 +180,7 @@ export function MessageScene3({ onComplete, isActive = true }: MessageScene3Prop
                 <TypewriterText 
                   text={thirdMessage}
                   delay={100}
-                  className="text-3xl md:text-4xl font-bold text-pink-800 font-main-text"
+                  className="text-4xl md:text-4xl font-bold text-pink-800 font-main-text"
                   onComplete={handleThirdTextComplete}
                 />
               </div>
@@ -192,7 +192,7 @@ export function MessageScene3({ onComplete, isActive = true }: MessageScene3Prop
                 <TypewriterText 
                   text={fourthMessage}
                   delay={60}
-                  className="text-lg md:text-xl text-pink-600 font-main-text leading-relaxed"
+                  className="text-4xl md:text-xl text-pink-600 font-main-text leading-relaxed"
                   onComplete={handleFourthTextComplete}
                 />
               </div>
@@ -204,7 +204,7 @@ export function MessageScene3({ onComplete, isActive = true }: MessageScene3Prop
                 <TypewriterText 
                   text={fifthMessage}
                   delay={80}
-                  className="text-2xl md:text-3xl text-pink-800 font-main-text italic"
+                  className="text-4xl md:text-3xl text-pink-800 font-main-text italic"
                   onComplete={handleFifthTextComplete}
                 />
               </div>

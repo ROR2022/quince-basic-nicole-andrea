@@ -165,7 +165,7 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
                 <TypewriterText 
                   text={secondMessage}
                   delay={80}
-                  className="text-2xl md:text-3xl text-amber-600 font-main-text"
+                  className="text-4xl md:text-3xl text-amber-600 font-main-text"
                   onComplete={handleSecondTextComplete}
                 />
               </div>
@@ -177,7 +177,7 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
                 <TypewriterText 
                   text={thirdMessage}
                   delay={100}
-                  className="text-3xl md:text-4xl font-bold text-amber-800 font-main-text"
+                  className="text-4xl md:text-4xl font-bold text-amber-800 font-main-text"
                   onComplete={handleThirdTextComplete}
                 />
               </div>
@@ -189,7 +189,7 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
                 <TypewriterText 
                   text={fourthMessage}
                   delay={60}
-                  className="text-lg md:text-xl text-amber-600 font-main-text leading-relaxed"
+                  className="text-4xl md:text-xl text-amber-600 font-main-text leading-relaxed"
                   onComplete={handleFourthTextComplete}
                 />
               </div>
@@ -201,7 +201,7 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
                 <TypewriterText 
                   text={fifthMessage}
                   delay={80}
-                  className="text-2xl md:text-3xl text-amber-800 font-main-text italic"
+                  className="text-4xl md:text-3xl text-amber-800 font-main-text italic"
                   onComplete={handleFifthTextComplete}
                 />
               </div>
