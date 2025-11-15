@@ -45,7 +45,7 @@ export const quinceMainData = {
         abuela: "Genoveva Alvarez",
       },
     },
-    chambelan: "Dilan Trasviña Caudillo",
+    chambelan: "Dilan Trasviña Coutiño",
     date: {
       full: "Sábado 03 de Enero 2026",
       isoDate: "2026-01-03T16:00:00",
@@ -78,7 +78,7 @@ export const quinceMainData = {
       time: "5 PM ",
       venue: "Casa de mis Abuelos Maternos",
       address: "Las Grullas MD",
-      type: "Recepción",
+      type: "Fiesta y Baile",
       ubiLink: "",
     },
     dressCode: "Formal - Rosa solo la quinceañera",
