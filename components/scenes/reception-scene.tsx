@@ -90,7 +90,7 @@ export function ReceptionScene({ onComplete, isActive = true }: ReceptionScenePr
           opacity: videoLoaded ? 1 : 0
         }}
       >
-        <source src="/video/na2.mp4" type="video/mp4" />
+        <source src="/video/na5.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo8-VbuMeeRnwH48b73enAL6llvNC1IKMQ.png"

@@ -74,7 +74,7 @@ export function ScheduleScene({ onComplete, isActive = true }: ScheduleSceneProp
           opacity: videoLoaded ? 1 : 0
         }}
       >
-        <source src="/video/na3.mp4" type="video/mp4" />
+        <source src="/video/na9.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo9-FHTBMsEcGFSin6I6VmwHEJxWLSV31F.png"

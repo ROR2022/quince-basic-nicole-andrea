@@ -70,7 +70,7 @@ export function DateScene({ onComplete, isActive = true }: DateSceneProps) {
           opacity: videoLoaded ? 1 : 0
         }}
       >
-        <source src="/video/na1.mp4" type="video/mp4" />
+        <source src="/video/na8.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo7-gurPRtNhvTix6LQQCmEvsmec5HoLBm.png"
