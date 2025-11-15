@@ -125,7 +125,7 @@ export function TitleScene({ onComplete, isActive }: TitleSceneProps) {
               <TypewriterText
                 text="Nicole Andrea"
                 delay={150}
-                className="font-main-text text-6xl md:text-8xl lg:text-9xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
+                className="font-main-text text-5xl md:text-7xl lg:text-8xl text-amber-500 font-bold tracking-wide drop-shadow-2xl"
                 onComplete={() => setAllTextComplete(true)}
                 isActive={isActive}
               />

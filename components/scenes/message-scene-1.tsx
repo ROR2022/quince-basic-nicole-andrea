@@ -14,7 +14,11 @@ export function MessageScene1({ onComplete, isActive }: MessageScene1Props) {
   const [videoLoaded, setVideoLoaded] = useState(false)
   const [videoError, setVideoError] = useState(false)
 
-  const message = "Con la bendición de Dios y el amor de toda mi familia, me siento muy feliz de llegar a este momento de mi vida. Ahora empieza un camino que conduce a un mundo de sueños e ilusiones, que con mucha fe, humildad y esperanza deseo cumplir. Me gustaría con mucha alegría compartir este comienzo de esta bella etapa con todos ustedes."
+  //const message = "Con la bendición de Dios y el amor de toda mi familia, me siento muy feliz de llegar a este momento de mi vida. Ahora empieza un camino que conduce a un mundo de sueños e ilusiones, que con mucha fe, humildad y esperanza deseo cumplir. Me gustaría con mucha alegría compartir este comienzo de esta bella etapa con todos ustedes."
+  const message = `Con la bendicion de Dios y el amor que mi familia
+  me ha brindado, me siento feliz de haber llegado a este momento de mi vida,
+  el dia que dejare atrás mi infacncia y comenzare una nueva etapa.
+  `
 
   // Handle video loading
   const handleVideoLoaded = () => {
