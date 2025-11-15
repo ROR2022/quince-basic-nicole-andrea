@@ -77,7 +77,7 @@ export const quinceMainData = {
     party: {
       time: "5 PM ",
       venue: "Casa de mis Abuelos Maternos",
-      address: "Santa fe de Guadalupe, la Sauceda Guanajuato.",
+      address: "Las Grullas MD",
       type: "Recepción",
       ubiLink: "",
     },
