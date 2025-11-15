@@ -107,7 +107,7 @@ export function MessageScene2({ onComplete, isActive }: MessageScene2Props) {
           transition: 'opacity 0.5s ease-in-out'
         }}
       >
-        <source src="/video/na2.mp4" type="video/mp4" />
+        <source src="/video/na8.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fotoVideo3-fU4fQLXpKVDGkvxylef7pszW6qJCT8.png"
