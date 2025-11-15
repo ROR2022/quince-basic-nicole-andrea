@@ -133,9 +133,9 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
       {/* Text Container - Organized vertically */}
       {videoLoaded && (
-        <div className="relative z-20 text-center px-6 md:px-8 lg:px-12">
+        <div className="relative z-20 text-center px-3 md:px-8 lg:px-12">
           {/* First Text */}
-          <div className="rounded-2xl p-4 md:p-6 lg:p-8">
+          <div className="rounded-2xl p-2 md:p-6 lg:p-8">
             <TypewriterText
               text={firstMessage}
               delay={150}
@@ -147,7 +147,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
           {/* Second Text */}
           {firstTextComplete && (
-            <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
+            <div className="animate-fade-in rounded-2xl p-2 md:p-6 lg:p-8">
               <TypewriterText
                 text={secondMessage}
                 delay={120}
@@ -160,7 +160,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
           {/* Third Text */}
           {secondTextComplete && (
-            <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
+            <div className="animate-fade-in rounded-2xl p-2 md:p-6 lg:p-8">
               <TypewriterText
                 text={thirdMessage}
                 delay={150}
@@ -173,7 +173,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
           {/* Fourth Text */}
           {thirdTextComplete && (
-            <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
+            <div className="animate-fade-in rounded-2xl p-2 md:p-6 lg:p-8">
               <TypewriterText
                 text={fourthMessage}
                 delay={120}
@@ -186,7 +186,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
           {/* Fifth Text */}
           {fourthTextComplete && (
-            <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
+            <div className="animate-fade-in rounded-2xl p-2 md:p-6 lg:p-8">
               <TypewriterText
                 text={fifthMessage}
                 delay={120}
@@ -199,7 +199,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
 
           {/* Sixth Text */}
           {fifthTextComplete && (
-            <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
+            <div className="animate-fade-in rounded-2xl p-2 md:p-6 lg:p-8">
               <TypewriterText
                 text={sixthMessage}
                 delay={120}
